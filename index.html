@@ -22,16 +22,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="index.html#go1">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="index.html#go2">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="index.html#go3">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
@@ -58,6 +58,7 @@
 
 <div class="jumbotron-fluid" style="background-image: url(pictures/purplegradient.svg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
     <div class="container">
+        <div id="go1"></div>
         <p id = "sec_des" style="text-align: center;">
             Hi, My name is Siddhanta. Nice to Meet you.
             <br>
@@ -66,10 +67,11 @@
             all around the world.
         </p>
     </div>
+
 </div>
 
 <div class="container">
-    <h2>About Me</h2>
+    <h2 align="center" >About Me</h2>
     <div style="text-align: center; padding-top: 1em;padding-bottom: 1em;">
         <img class="profile_pic" src="pictures/20190410_110601.jpg" alt="profile pic"/>
     </div>
@@ -98,9 +100,12 @@
             </p>
 
         </div>
+
+
         <div class="col span_1_of_3" style="text-align: center">
             <span class="fas fa-puzzle-piece" style="font-size: 50px; color: purple; padding: 5px"></span><br>
             <span style="font-weight: bold">Hobbies</span>
+            <div id="go2"></div>
             <p class="about_des">
                 -Learning about new tech.
                 <br>
@@ -111,11 +116,11 @@
         </div>
     </div>
     <hr>
-    <h2>Projects</h2>
+    <h2 align="center">Projects</h2>
 
     <div class="section group">
         <div class="col span_1_of_2">
-            <div style="text-align: center">
+            <div style="text-align: center; height: 100%; width: 100%">
                 <img src="pictures/website_img.PNG" height="80%" width="80%" style="text-align: center; padding-top: 15px; padding-bottom: 10px" alt="website image"/>
                 <br>
                 <span><a href="https://muktinathjewels.000webhostapp.com" >Jewellery Website</a></span>
@@ -137,7 +142,7 @@
 
         </div>
         <div class="col span_1_of_2">
-            <div style="text-align: center">
+            <div style="text-align: center; padding-bottom: 10px; height: 100%; width: 100%">
                 <img src="pictures/todo_img.PNG" height="40%" width="40%" style="text-align: center; padding-top: 15px; padding-bottom: 10px" alt="website image"/>
                 <br>
                 <span><a href="https://github.com/siddhantapoudel/ToDoList-using-JSON" >Todo List C#</a></span>
@@ -157,7 +162,7 @@
 
     <div class="section group">
         <div class="col span_1_of_2">
-            <div style="text-align: center">
+            <div style="text-align: center; padding-bottom: 12px; height: 100%; width: 100%;">
                 <img src="pictures/Calc_img.PNG" height="30%" width="30%" style="text-align: center; padding-top: 15px; padding-bottom: 10px" alt="website image"/>
                 <br>
                 <span><a href="https://github.com/siddhantapoudel/Calculator-C-Sharp" >Calculator C#</a></span>
@@ -170,7 +175,6 @@
                     <br>
                     -take out fractions and mod.
                     <br>
-
                     <a href="https://github.com/siddhantapoudel/Calculator-C-Sharp">Github Link</a>
                 </p>
 
@@ -178,12 +182,12 @@
 
         </div>
         <div class="col span_1_of_2">
-            <div style="text-align: center">
+            <div style="text-align: center; padding-bottom: 25px; height: 100%; width: 100%;">
                 <img src="pictures/Other_img.PNG" height="80%" width="80%" style="text-align: center; padding-top: 15px; padding-bottom: 10px" alt="website image"/>
                 <br>
                 <span><a href="https://github.com/siddhantapoudel" >And others!</a></span>
                 <p class="about_des">
-                    -Check out my github for more and upcoming projects.
+                    -Check out my github for more projects.
                     <br>
                     -Simple music Player C# <a href="https://github.com/siddhantapoudel/Very-Simple-music-player-C-Sharp">Visit</a>
                     <br>
@@ -201,16 +205,32 @@
 
     <hr>
 
-    <h2>Contact</h2>
-
-
-
 
 </div>
 
+<footer style="background-color: #f5eee5; font-size: 1rem; line-height: 0.5;">
+    <div class="container" style="padding-top: 10px;">
+        <div class="row">
+            <div class="col-sm-5" id="footer">
+                <h2 id="go3">Contact Me</h2>
+                <p>Contact No: 9862760234</p>
+                <p>Radhe Radhe,Bhaktapur</p>
+                <p>Facebook: <a href="#">Visit</a></p>
+                <p>Linked In: <a href="#">Visit</a></p>
+            </div>
+            <div class="col-sm-3">
 
-
-
+            </div>
+            <div class="col-sm-4 subscribe" id="footer2">
+                <h2>Connect With Me</h2>
+                <p>Send me a Email so that you</p>
+                <p>can get in touch with me</p>
+                <p style="font-weight: bold">Email: </p>
+                <p>Siddhanta.poudel44@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
