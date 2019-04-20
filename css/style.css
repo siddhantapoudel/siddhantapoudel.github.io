@@ -6,7 +6,7 @@
 }
 .jumbotron
 {
-    background-color: #ffffff;
+    background-color: #f5eee5;
     margin-top: 5%;
     padding-bottom: 1em;
 }
@@ -30,10 +30,7 @@ p{
     font-weight: 300;
     line-height: 2;
 }
-#first_des{
 
-    padding-bottom: 50px;
-}
 .profile_pic
 {
     height: 250px;
@@ -65,11 +62,12 @@ p{
     font-size: 20px;
     text-align: justify;
 }
+
 .about_des
 {
-    padding-top: 1px;
-
+    text-align: left;
 }
+
 
 #jumbo
 {
@@ -95,7 +93,7 @@ p{
     margin: 1% 0 1% 1.6%;
 
     border-radius: 3%;
-    background-color: #f2f2f2f2;
+    background-color: #f5eee5;
 }
 .col:first-child { margin-left: 0; }
 
@@ -110,9 +108,20 @@ p{
 .span_1_of_3 { width: 32.26%; }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 535px) {
     .col {  margin: 1% 0 1% 0%; }
     .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+@media screen and (max-width: 535px)
+{
+    .about_des
+    {
+        text-align: -moz-left;
+        font-size: 13px;
+        line-height: 1.7;
+
+    }
 }
 
 @media screen and (max-width: 768px)
@@ -134,12 +143,13 @@ p{
         height: 150px;
         width: 150px;
     }
-    .about_des
-    {
-        font-size: 15px;
-    }
+
     .jumbotron
     {
         margin-top: 5%;
+    }
+    .col
+    {
+
     }
 }
