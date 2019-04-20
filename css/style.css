@@ -124,6 +124,26 @@ p{
     }
 }
 
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width: 100%;
+}
+.span_1_of_2 {
+    width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
 @media screen and (max-width: 768px)
 {
     h1 {
@@ -147,8 +167,9 @@ p{
     .jumbotron
     {
         background-color: #f5eee5;
-        margin-top: 5%;
+        margin-top: 8%;
     }
+
     .col
     {
 
