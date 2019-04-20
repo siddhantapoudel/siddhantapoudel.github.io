@@ -1,0 +1,145 @@
+.navbar
+{
+    padding: 1rem 1rem;
+    background: #ffffff;
+    border-color: transparent;
+}
+.jumbotron
+{
+    background-color: #ffffff;
+    margin-top: 5%;
+    padding-bottom: 1em;
+}
+body
+{
+
+    font-family: 'Poppins', sans-serif;
+}
+/*style="background: url(pictures/gradient.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"*/
+h1
+{
+    font-weight: bolder;
+    font-size: 3em;
+}
+h2
+{
+    font-weight: bolder;
+}
+
+p{
+    font-weight: 300;
+    line-height: 2;
+}
+#first_des{
+
+    padding-bottom: 50px;
+}
+.profile_pic
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.crop {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.crop img {
+    height: 62%;
+    width: 68%;
+    margin: -6% 20% -6% 16%;
+}
+
+#img_sec
+{
+    height: 20%;
+    width: 100%;
+}
+
+#sec_des
+{
+    padding: 3em 1em;
+    font-size: 20px;
+    text-align: justify;
+}
+.about_des
+{
+    padding-top: 1px;
+
+}
+
+#jumbo
+{
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+
+    border-radius: 3%;
+    background-color: #f2f2f2f2;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {  margin: 1% 0 1% 0%; }
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+@media screen and (max-width: 768px)
+{
+    h1 {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    #first_des
+    {
+        padding-bottom: 20px;
+    }
+    #sec_des
+    {
+        font-size: 14px;
+    }
+    .profile_pic
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .about_des
+    {
+        font-size: 15px;
+    }
+    .jumbotron
+    {
+        margin-top: 5%;
+    }
+}
