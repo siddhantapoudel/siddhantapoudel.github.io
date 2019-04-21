@@ -188,6 +188,16 @@ p{
         font-size: 13px;
     }
 
+    #about_des1
+    {
+        padding-bottom: 72px;
+    }
+
+    #about_des2
+    {
+        padding-bottom: 52px;
+    }
+
     #contact
     {
         font-size: 13px;
